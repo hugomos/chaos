@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '700'], variable: '--font-inter' })
 
 export const metadata = {
   title: 'Create Next App',
@@ -14,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="pt-BR">
+      <body className={`${inter.variable} text-zinc-50 bg-zinc-950 antialiased`}>{children}</body>
     </html>
   )
 }
