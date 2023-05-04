@@ -1,6 +1,7 @@
 import { SidebarMenu } from '@/src/components/SidebarMenu'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { Header } from '@/src/components/Header'
 
 const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '700'], variable: '--font-inter' })
 
@@ -18,9 +19,10 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={`${inter.variable} text-zinc-50 bg-zinc-950 antialiased`}>
         <div className="h-screen">
+          <Header />
           <div className="flex h-full">
             <SidebarMenu />
-            <main className="flex-1">
+            <main className="flex-1 p-6">
               {children}
             </main>
           </div>
