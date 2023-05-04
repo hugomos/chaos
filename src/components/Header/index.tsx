@@ -2,8 +2,6 @@
 import React from 'react';
 
 import { Atom, Bell } from '@phosphor-icons/react'
-import Link from 'next/link';
-
 interface HeaderProps {
   title: string;
 }

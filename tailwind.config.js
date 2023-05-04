@@ -22,7 +22,7 @@ module.exports = {
         },
       },
       animation: {
-        shake: "shake_kf 0.31s ease-in-out",
+        shake: "shake_kf 0.35s ease-in-out",
       },
     },
   },

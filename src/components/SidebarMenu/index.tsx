@@ -7,11 +7,11 @@ import { ChartLine, GearSix, Atom, SquaresFour, Question, EnvelopeSimple } from 
 
 export const SidebarMenu: React.FC = () => {
   return (
-    <aside className="w-72 h-full bg-zinc-900 p-6 fixed left-0 flex flex-col justify-between">
+    <aside className="w-72 h-full bg-zinc-900 p-6 fixed left-0 flex flex-col justify-between z-10">
       <div>
-        <header className='flex items-center gap-4 px-2 mb-6 pb-6 border-b border-zinc-800'>
+        <header className='flex items-center gap-2 px-2 mb-6 pb-6 border-b border-zinc-800'>
           <Atom size={32} />
-          <h1 className='text-lg font-semibold'>Chaos.finance</h1>
+          <h1 className='text-2xl font-semibold'>Chaos</h1>
         </header>
         <nav className="space-y-5">
           <Link href="/" className="flex items-center p-2 rounded-md gap-3 text-sm font-semibold text-zinc-200 hover:bg-zinc-800 transition duration-100">
@@ -47,7 +47,7 @@ export const SidebarMenu: React.FC = () => {
             V
           </div>
           <div className='flex flex-col'>
-            <p className='text-sm font-semibold'>Vitor Hugo Martins</p>
+            <p className='text-sm font-semibold'>Vitor Hugo Oliveira</p>
             <span className='text-xs'>fake@athenasagricola.com.br</span>
           </div>
         </Link>

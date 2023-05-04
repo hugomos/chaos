@@ -6,7 +6,11 @@ const Dashboard: React.FC = () => {
   return (
     <div>
       <Header title="Dashboard" />
-      <h3>Dashboard</h3>
+      <div>
+        <div className='w-full'>
+          <h2 className='text-2xl font-medium'>Welcome back, Vitor Hugo</h2>
+        </div>
+      </div>
     </div>
   )
 }
