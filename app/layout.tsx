@@ -19,11 +19,12 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={`${inter.variable} text-zinc-50 bg-zinc-950 antialiased`}>
         <div className="h-screen">
-          <Header />
           <div className="flex h-full">
             <SidebarMenu />
-            <main className="flex-1 p-6">
-              {children}
+            <main className="flex-1">
+              <div className='pl-80 pr-6 py-6'>
+                {children}
+              </div>
             </main>
           </div>
         </div>
