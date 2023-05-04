@@ -1,9 +1,1 @@
-"use client";
-
-export default function FAQ() {
-  return (
-    <div>
-      <h3>FAQ</h3>
-    </div>
-  )
-}
+export { default } from '@/src/pages/FAQ';
