@@ -10,7 +10,7 @@ const Statistcs: React.FC = () => {
         <div className='w-full'>
           <h2 className='text-2xl font-medium'>View last week's report</h2>
           <div className='my-6 grid grid-cols-4 gap-4 max-xl:grid-cols-2'>
-            <div className='w-full min-w-max p-8 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 bg-gradient-to-r from-zinc-900 to-zinc-800 flex flex-col gap-8'>
+            <div className='w-full p-8 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 bg-gradient-to-r from-zinc-900 to-zinc-800 flex flex-col gap-8'>
               <div className='flex flex-col gap-2'>
                 <h3 className='text-lg opacity-50 text-zinc-500 font-semibold'>Sampled</h3>
                 <span className='text-3xl font-medium'>3456</span>
@@ -42,7 +42,7 @@ const Statistcs: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className='w-full min-w-max p-8 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 bg-gradient-to-r from-zinc-900 to-zinc-800 flex flex-col gap-8'>
+            <div className='w-full p-8 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 bg-gradient-to-r from-zinc-900 to-zinc-800 flex flex-col gap-8'>
               <div className='flex flex-col gap-2'>
                 <h3 className='text-lg opacity-50 text-zinc-500 font-semibold'>Valid</h3>
                 <span className='text-3xl font-medium'>2600</span>
@@ -74,7 +74,7 @@ const Statistcs: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className='w-full min-w-max p-8 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 bg-gradient-to-r from-zinc-900 to-zinc-800 flex flex-col gap-8'>
+            <div className='w-full p-8 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 bg-gradient-to-r from-zinc-900 to-zinc-800 flex flex-col gap-8'>
               <div className='flex flex-col gap-2'>
                 <h3 className='text-lg opacity-50 text-zinc-500 font-semibold'>Invalid</h3>
                 <span className='text-3xl font-medium'>856</span>
@@ -106,7 +106,7 @@ const Statistcs: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className='w-full min-w-max p-8 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 bg-gradient-to-r from-zinc-900 to-zinc-800 flex flex-col gap-8'>
+            <div className='w-full p-8 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 bg-gradient-to-r from-zinc-900 to-zinc-800 flex flex-col gap-8'>
               <div className='flex flex-col gap-2'>
                 <h3 className='text-lg opacity-50 text-zinc-500 font-semibold'>Invalid</h3>
                 <span className='text-3xl font-medium'>856</span>
